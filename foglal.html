@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<header>
+			<title>
+				Roland Tattoo
+			</title>
+		</header>
+		<link rel="stylesheet" type="text/css" href="div.css">
+		<link rel="stylesheet" type="text/css" href="kep.css">
+		<link rel="stylesheet" type="text/css" href="szoveg.css">
+		<link rel="stylesheet" type="text/css" href="video.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "topnav";
+			  }
+			}
+		</script>
+	</head>
+	<body>
+		<div id="fejlec">
+			<div id="fokep">
+				<img id="logo" src="icon.png" alt="logo">
+			</div>
+			<div class="topnav" id="myTopnav">
+				<a href="index.html">Főoldal</a>
+				<a href="galeria.html">Galéria</a>
+				<a href="video.html">Videók</a>
+				<a href="foglal.html"  class="active">Foglalás</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</div>
+		<div id="body">
+			<h1 style="text-align: center;">Foglalás</h1>
+			<div id="urlap">
+				<div class="urlap2">
+					<div id="szoveg">
+						<form action="mailto:someone@example.com" method="post" enctype="text/plain" name="urlap3">
+							Ha tetszenek a munkáim, küldj visszajelzést: <br>
+							<textarea id="szovegdoboz" name="szdoboz" cols="100" rows="20"></textarea><br>
+							<input type='submit' value="Elküld">
+						</form>
+					</div>
+				</div>
+				<div class="urlap2">
+					<div id="nms">
+						<p>Foglaláshoz szükséges adatok:</p>
+						<form name="nms2" method="post" action="post" style="padding-left: 5%;">
+							<p>Neved: <input type="text" name="szmezo" size="25" maxlength="25"></p>
+							<p>E-mail címed:<input name="email" size="50"></p>
+							<p>Születési éved :<input type="text" name="szev" size="15"></p>
+							<p><input type="reset" value="Töröl"></p>
+							<p>Milyen tetoválást szeretnél? (Többet is megjelölhetsz)</p>
+							<p><input type="checkbox" name="feketefeher" value="tanult">Black&Grey (fekete-fehér)</p>
+							<p><input type="checkbox" name="oldschool" value="tanult">Old School (Régi stílus)</p>
+							<p><input type="checkbox" name="oriental" value="tanult">Oriental (Keleti típusú)</p>
+							<p><input type="checkbox" name="realistic" value="tanult">Realistic (Valósághű)</p>
+							<p><input type="checkbox" name="Egyeb" value="tanult"> Egyebet </p>
+							<p><input type="reset" value="Töröl"></p>
+							<p>Melyik nap jó neked?</p>
+							<p><input type="radio" name="mnap" value="hetfo"> Hétfő</p>
+							<p><input type="radio" name="mnap" value="kedd"> Kedd</p>
+							<p><input type="radio" name="mnap" value="szerda"> Szerda</p>
+							<p><input type="radio" name="mnap" value="csutortok"> Csütörtök</p>
+							<p><input type="radio" name="mnap" value="pentek"> Péntek</p>
+							<p><input type="radio" name="mnap" value="szombat"> Szombat</p>
+							<p><input type="radio" name="mnap" value="vasarnap"> Vasárnap</p>
+							<p><input type="reset" value="Töröl"></p>
+							<p>Délelőtt vagy Délután?</p>
+							<p><input type="radio" name="dedu" value="delelott"> Délelőtt</p>
+							<p><input type="radio" name="dedu" value="delutan"> Délután</p>
+							<p><input type="reset" value="Töröl"></p>
+							<input type='submit' value="Elküld">
+						</form>
+					</div>
+				</div>
+				<p style="text-align: center;">Felhívnám mindenki figyelmét, hogy az időpontofglalás módosulhat a jelentkezők, illetve a munkahossz függvényében.</p><br>
+			</div>			
+		</div>
+	</body>
+	<footer>
+		<div class="lab">
+			<br>
+			Köszönöm, hogy meglátogattad az oldalam!<br>
+			A weboldalt készítette: Nagy Ádám.<br>
+			A weboldalt szerzői jogok védik. 
+		</div>
+	</footer>
+</html>

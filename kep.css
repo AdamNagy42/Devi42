@@ -1,0 +1,54 @@
+#fokep {
+	
+	padding: 1% 1%;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	margin-top: 1%;
+	margin-left: 3%;
+}
+#logo {
+	width: 6%
+}
+@media screen and (max-width: 1000px) {
+	#fokep {
+		display: none;
+	}
+}
+#kepek {
+	width: 70%;
+	height: 100%;
+	position: relative;
+	text-align: center;
+	margin: auto;
+}
+#fokep1 {
+	width: 70%;
+	height: auto;
+	padding-left: 50px;
+}
+#fookep1 {
+	width: 400px;
+	height: auto;
+	position: absolute;
+}
+@media screen and (max-width: 1350px) {
+	#fookep1 {
+		width: 100%;
+		height: auto;
+		position: relative;
+		text-align: center;
+	}
+	#fokep1 {
+		padding-left: 0px;
+	}
+}
+.kep {
+	width: 100%;
+	height: auto;
+	padding-bottom: 2%;
+}
+.kep_kicsi {
+	width: 200;
+	height: 150;
+}

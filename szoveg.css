@@ -1,0 +1,19 @@
+#foszov1 {
+	height: 30%;
+	width: 50%;
+	margin-left: 40%;
+	background-color: lightgrey;
+	text-align: center;
+	font-size: 120%;
+}
+#szovegdoboz {
+	width: 99%;
+}
+@media screen and (max-width: 1000px) {
+	#foszov1 {
+		margin-left: 25%;
+	}
+	html {
+		font-size: 8px;
+	}
+}
